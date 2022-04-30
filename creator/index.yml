@@ -1,21 +1,21 @@
 ### YamlMime:Hub
 
-title: "Minecraft: Bedrock Edition Creator Documentation" # < 60 chars
-summary: "Learn how to mod Minecraft with Add-Ons. Create skins, design unique experiences, discover the latest features, and develop your skills as a Minecraft creator."
+title: "Minecraft: Bedrock Edition クリエイタードキュメント" # < 60 chars
+summary: "アドオンでMinecraftを改造する方法を学びます。スキンを作成し、ユニークな体験をデザインし、最新の機能を発見し、Minecraftクリエイターとしてのスキルを向上させることができます。"
 
 metadata:
-  title: "Minecraft: Bedrock Edition Creator Documentation" # Required; page title shown in search results < 60 chars
-  description: "Learn how to mod Minecraft with Add-Ons. Create skins, design unique experiences, discover the latest features, and develop your skills as a Minecraft creator." # < 160 chars
+  title: "Minecraft: Bedrock Edition クリエイタードキュメント" # Required; page title shown in search results < 60 chars
+  description: "アドオンでMinecraftを改造する方法を学びます。スキンを作成し、ユニークな体験をデザインし、最新の機能を発見し、Minecraftクリエイターとしてのスキルを向上させることができます。" # < 160 chars
   service: service
   ms.service: service # Required; service per approved list.
   ms.topic: hub-page # Required
-  ms.date: 08/30/2021
+  ms.date: 03/9/2022
   author: JDHeaden # Required; Github alias
   ms.author: v-jillheaden # Required; Microsoft alias; with correct grammar
 
-# highlighted content section (optional), will outlined up to 8 items in a 4x2 grid.
+# 強調表示部分（オプション）、最大8項目を4×2グリッドでアウトライン化します。
 highlightedContent:
-# itemType:  architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  # itemType:  architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     #card used to define plugin
     - title: Meet the /Damage Command
@@ -42,195 +42,195 @@ highlightedContent:
       itemType: architecture
       url: Documents/DifferencesBetweenBedrockAndJava.md
 
-# productDirectory section (optional)
+# productDirectoryセクション(オプション)
 productDirectory:
-  title: Building Custom Content  # < 60 chars (optional)
-  summary: Whether you are creating first Add-On or your one-hundredth, there is content for all types of creators to help you on your journey! # < 160 chars (optional)
+  title: カスタムコンテンツの構築 # < 60 chars (optional)
+  summary: 初めてアドオンを作る人も、100個目のアドオンを作る人も、あらゆるタイプのクリエイターに向けたコンテンツが用意されています。 # < 160 chars (optional)
   items:
     # Card
-    - title: Getting Started with Add-On Development
+    - title: アドオン開発入門
       imageSrc: images/Add-Resource-Pack.png
-      summary: Working with Add-Ons in Minecraft:Bedrock Edition is easy! Learn how to get started
+      summary: Minecraft:Bedrock Editionでアドオンを使うのは簡単です! はじめ方を学ぶ
       url: Documents/GettingStarted.md
     # Card
-    - title: JSON Reference Documentation
+    - title: JSONリファレンスドキュメント
       imageSrc: images/Script.png
-      summary: Discover the different features and components used within Minecraft
+      summary: Minecraftで使用されるさまざまな機能とコンポーネントを知る
       url: Reference/index.yml
     # Card
-    - title: Getting Started with Minecraft Entity Wizard
+    - title: Minecraft Entity Wizard入門
       imageSrc: images/Firework.png
-      summary: Rapidly design, build and deploy a brand new Entity with the new Minecraft Entity Wizard Tool
+      summary: Minecraft Entity Wizard Toolで、新しいEntityをすばやく設計、構築、デプロイできます
       url: Documents/MinecraftEntityWizard.md
 
-# conceptualContent section (optional)
+# conceptualContent セクション（オプション）。
 conceptualContent:
-# Supports up to 3 sections
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  # 最大3分割まで対応
+  # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   sections:
-    - title: Discover what you can Create # < 60 chars (optional)
-      summary: "Building new Add-Ons or want to learning about new Features? The Creator Documentation provides a collection of written content to assist creators." # < 160 chars (optional)
+    - title: 創造できるものを見つける # < 60 chars (optional)
+      summary: "新しいアドオンを作りたい、または新しい機能について知りたいですか？ Creator Documentationは、クリエイターを支援するための文書コンテンツ集です。" # < 160 chars (optional)
       items:
         # card
-        - title: Add-On Pack Tutorials
-          summary: "Learn how Add-Ons are used to bring custom content into Minecraft"
+        - title: アドオンパックのチュートリアル
+          summary: "Minecraftにカスタムコンテンツを導入するためのアドオンの使用方法について説明します"
           links:
             - url: Documents/ResourcePack.md
               itemType: get-started
-              text: Introduction to Resource Packs
+              text: リソースパックの紹介
             - url: Documents/BehaviorPack.md
               itemType: get-started
-              text: Introduction to Behavior Packs
+              text: ビヘイビアパックの紹介
             - url: Documents/CustomBlock.md
               itemType: how-to-guide
-              text: How to add a Custom Block
+              text: カスタムブロックの追加方法
         # card
-        - title: Build a "Complete the Monument" map with Commands
-          summary: "Commands are a powerful way to add logic into your experiences."
+        - title: コマンドで "Complete the Monument"マップを構築する
+          summary: "コマンドは、体験にロジックを追加する強力な手段です"
           links:
             - url: Documents/CommandsIntroduction.md
               itemType: concept
-              text: Introduction to Commands
+              text: コマンドの紹介
             - url: Documents/CommandsPopularCommands.md
               itemType: reference
-              text: Popular Commands
+              text: 人気のあるコマンド
             - url: Documents/CommandBlocks.md
               itemType: get-started
-              text: Getting Started with Command Blocks
+              text: コマンドブロック入門
             - url: Documents/CommandsHowToMakeACTMMap.md
               itemType: get-started
-              text: How To Make a Complete the Monument Map
+              text: Complete the Monumentマップの作り方
         # card
-        - title: Adding new Minecraft Entities
-          summary: "Learn how to create and implement your own custom entities."
+        - title: 新しいMinecraftエンティティの追加
+          summary: "独自のカスタムエンティティを作成し、実装する方法をご紹介します。"
           links:
             - url: Documents/IntroductionToAddEntity.md
               itemType: get-started
-              text: Introduction to Add Entity
+              text: 追加エンティティの入門
             - url: Documents/EntityModelingAndAnimation.md
               itemType: tutorial
-              text: Entity Modeling and Animation
+              text: エンティティモデリングとアニメーション
             - url: Documents/EntityBehaviorIntroduction.md
               itemType: tutorial
-              text: Entity Behavior Introduction
+              text: エンティティビヘイビア入門
         # card
-        - title: Adding NPCs
-          summary: "Populate your world with interactive characters to create unique narrative experiences."
+        - title: NPCの追加
+          summary: "自分の世界にインタラクティブなキャラクターを登場させ、ユニークな物語体験を作り上げましょう。"
           links:
             - url: Documents/CreateNPCs.md
               itemType: tutorial
-              text: Create a Custom NPC
+              text: カスタムNPCの作成
             - url: Documents/NPCDialogue.md
               itemType: tutorial
-              text: NPC Dialogue Command
+              text: NPCダイアログコマンド
         # card
-        - title: Loot and Trading Tables
-          summary: "Discover how Tables allow creators to add items to the world in a wide variety of ways."
+        - title: ルートテーブルとトレードテーブル
+          summary: "テーブルを利用することで、クリエイターがさまざまな方法で世界にアイテムを追加できることをご紹介します"
           links:
-          - url: Documents/IntroductionToLootTables.md
-            itemType: get-started
-            text: Introduction to Loot Tables
-          - url: Documents/LootAndTradeTableFunctions.md
-            itemType: overview
-            text: Loot and Trade Table Functions
-          - url: Documents/LootSpawnAndKill.md
-            itemType: overview
-            text: Learn about Loot Spawn and Kill
+            - url: Documents/IntroductionToLootTables.md
+              itemType: get-started
+              text: ルートテーブル入門
+            - url: Documents/LootAndTradeTableFunctions.md
+              itemType: overview
+              text: ルートテーブル・トレードテーブル機能
+            - url: Documents/LootSpawnAndKill.md
+              itemType: overview
+              text: ルートスポーンとキルについて学ぶ
         # card
-        - title: Working with Chunker
-          summary: "Utilize Chunker to convert your existing Minecraft: Java Edition worlds to Minecraft: Bedrock Edition"
+        - title: Chunkerを使った作業
+          summary: "Chunkerを活用して、既存の Minecraft: Java Edition ワールドを Minecraft: Bedrock Edition に変換する"
           links:
-          - url: Documents/ChunkerOverview.md
-            itemType: overview
-            text: Chunker - Overview
-          - url: Documents/ChunkerWorldSettings.md
-            itemType: tutorial
-            text: Chunker - World Settings
-          - url: Documents/ChunkerTheNether.md
-            itemType: tutorial
-            text: Chunker - How to Clear The Nether
-          - url: Documents/ChunkerAdvancedMode.md
-            itemType: tutorial
-            text: Chunker - Advanced Mode
-    # Reference Section
-    - title: References  # < 60 chars (optional)
-      summary: "Learn how content works with Reference documentation and how GameTest can empower your workflow." # < 160 chars (optional)
+            - url: Documents/ChunkerOverview.md
+              itemType: overview
+              text: Chunker - 概要
+            - url: Documents/ChunkerWorldSettings.md
+              itemType: tutorial
+              text: Chunker - ワールド設定
+            - url: Documents/ChunkerTheNether.md
+              itemType: tutorial
+              text: Chunker - ネザーのクリア方法
+            - url: Documents/ChunkerAdvancedMode.md
+              itemType: tutorial
+              text: Chunker - アドバンスドモード
+    # リファレンスセクション
+    - title: リファレンス # < 60 chars (optional)
+      summary: "リファレンスドキュメントでコンテンツがどのように機能するか、そしてGameTestがどのように作業を効率化するかを学びます" # < 160 chars (optional)
       items:
-      # card
-      - title: Using GameTest
-        summary: "Learn how the new GameTest Frameworks can speed up your development time."
-        links:
-          - url: ScriptAPI/mojang-gametest/mojang-gametest.md
-            itemType: reference
-            text: GameTest API
-          - url:  Documents/GameTestGettingStarted.md
-            itemType: get-started
-            text: Getting Started with GameTest
-          - url: Documents/GameTestBuildYourFirstGameTest.md
-            itemType: how-to-guide
-            text: Build your first GameTest
-          - url: Documents/ScriptDeveloperTools.md
-            itemType: how-to-guide
-            text: Use Visual Studio Code tools to write script
-      # card
-      - title: Reference Documentation
-        summary: "Need a hand creating your content? View the reference documentation to see how things work in-game."
-        links:
-          - url: Reference/Content/addonsreference/index.yml
-            itemType: reference
-            text: Addons JSON Documentation
-          - url: Reference/Content/animationsreference/index.yml
-            itemType: reference
-            text: Animation JSON Documentation
-          - url: Reference/Content/blockreference/index.yml
-            itemType: reference
-            text: Block JSON Documentation
-          - url: Reference/Content/entityreference/index.yml
-            itemType: reference
-            text: Entity JSON Documentation
-          - url: Reference/Content/featuresreference/index.yml
-            itemType: reference
-            text: Features JSON Documentation
-          - url: Reference/Content/itemreference/index.yml
-            itemType: reference
-            text: Item JSON Documentation
-          - url: Reference/Content/molangreference/index.yml
-            itemType: reference
-            text: Molang Documentation
-          - url: Reference/Content/Recipereference/index.yml
-            itemType: reference
-            text: Recipe JSON Documentation
-          - url: Reference/Content/particlesreference/index.yml
-            itemType: reference
-            text: Particle JSON Documentation
-          - url: Reference/Content/volumereference/index.yml
-            itemType: reference
-            text: Volume JSON Documentation
-      # card
-      - title: Common Schema Documentation
-        summary: "See how Schemas are used to validate JSON files in Minecraft: Bedrock Edition "
-        links:
-          - url: Reference/Content/SchemasReference/index.yml
-            itemType: reference
-            text: Schemas Documentation
-          - url: Reference/Content/BiomeReference/Examples/BiomeOverview.md
-            itemType: overview
-            text: Biome Overview
-          - url: Reference/Content/FogsReference/Examples/FogsIntroduction.md
-            itemType: overview
-            text: Introduction to Fogs
+        # card
+        - title: GameTestの使用方法
+          summary: "新しいGameTest Frameworksがどのように開発期間を短縮するのかをご紹介します"
+          links:
+            - url: ScriptAPI/mojang-gametest/mojang-gametest.md
+              itemType: reference
+              text: GameTest API
+            - url: Documents/GameTestGettingStarted.md
+              itemType: get-started
+              text: GameTestを始めるにあたって
+            - url: Documents/GameTestBuildYourFirstGameTest.md
+              itemType: how-to-guide
+              text: 最初のGameTestを構築する
+            - url: Documents/ScriptDeveloperTools.md
+              itemType: how-to-guide
+              text: Visual Studio Codeのツールを使ってスクリプトを書く
+        # card
+        - title: リファレンスドキュメント
+          summary: "コンテンツ制作にお困りですか？リファレンスドキュメントで、ゲーム内での動作を確認できます"
+          links:
+            - url: Reference/Content/addonsreference/index.yml
+              itemType: reference
+              text: アドオンJSONドキュメント
+            - url: Reference/Content/animationsreference/index.yml
+              itemType: reference
+              text: アニメーション JSON ドキュメント
+            - url: Reference/Content/blockreference/index.yml
+              itemType: reference
+              text: ブロック JSON ドキュメント
+            - url: Reference/Content/entityreference/index.yml
+              itemType: reference
+              text: エンティティ JSON ドキュメント
+            - url: Reference/Content/featuresreference/index.yml
+              itemType: reference
+              text: フィーチャー JSON ドキュメント
+            - url: Reference/Content/itemreference/index.yml
+              itemType: reference
+              text: アイテム JSON ドキュメント
+            - url: Reference/Content/molangreference/index.yml
+              itemType: reference
+              text: Molang ドキュメント
+            - url: Reference/Content/Recipereference/index.yml
+              itemType: reference
+              text: レシピ JSON ドキュメント
+            - url: Reference/Content/particlesreference/index.yml
+              itemType: reference
+              text: パーティクル JSON ドキュメント
+            - url: Reference/Content/volumereference/index.yml
+              itemType: reference
+              text: ボリューム JSON ドキュメント
+        # card
+        - title: 共通スキーマドキュメント
+          summary: "Minecraft: Bedrock Edition におけるJSONファイルの検証にSchemaがどのように使用されているかを確認します"
+          links:
+            - url: Reference/Content/SchemasReference/index.yml
+              itemType: reference
+              text: スキーマ ドキュメント
+            - url: Reference/Content/BiomeReference/Examples/BiomeOverview.md
+              itemType: overview
+              text: バイオーム概要
+            - url: Reference/Content/FogsReference/Examples/FogsIntroduction.md
+              itemType: overview
+              text: フォグ入門
 
 # Tools Section
 tools:
-  title: Tools and Vanilla Packs
-  summary: Get started with some of the most commonly used tools for creating content.
+  title: ツール＆バニラパック
+  summary: コンテンツ作成によく使われるツールをご紹介します
   items:
     - title: Visual Studio Code
       imageSrc: images/VSCode.png
       url: "https://code.visualstudio.com/Download"
-    - title: Vanilla Behavior Pack
+    - title: バニラビヘイビアパック
       imageSrc: images/ResourcePack64.png
       url: "https://aka.ms/behaviorpacktemplate"
-    - title: Vanilla Resource Pack
+    - title: バニラリソースパック
       imageSrc: images/ResourcePack64.png
       url: "https://aka.ms/resourcepacktemplate"
